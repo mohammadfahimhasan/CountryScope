@@ -1,2 +1,2 @@
 ## Live Website
-[View Live Site](https://github.com/mohammadfahimhasan/CountryScope)
+[View Live Site]( https://mohammadfahimhasan.github.io/CountryScope/)
