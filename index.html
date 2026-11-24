@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountryScope - Explore The World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🌍 CountryScope</h1>
+        <p>Explore the world, one country at a time.</p>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Discover Our World</h2>
+            <p>Choose a continent or search for any country.</p>
+
+            <div class="search-box">
+                <input type="text" id="searchInput"
+                    placeholder="Search any country...">
+                <button id="searchBtn">Search</button>
+            </div>
+
+            <div class="actions">
+                <button id="allBtn">All Countries</button>
+                <button id="favoriteBtn">❤️ Favourites</button>
+                <button id="randomBtn">Random Country</button>
+            </div>
+        </section>
+
+        <section class="content">
+            <button id="backBtn" class="back-btn">
+                ← Back to Continents
+            </button>
+
+            <h2 id="heading">Explore Continents</h2>
+            <p id="subtitle">Select a continent to explore its countries.</p>
+
+            <div id="countryList" class="country-list">
+                <p class="message">Loading world data...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 CountryScope | Explore The World</p>
+        <p>Powered by REST Countries API</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
